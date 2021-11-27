@@ -2,7 +2,7 @@ import socket
 import threading
 
 nickname = input("Choose a nickname: ")
-HOST = '34.101.88.159'
+HOST = ''
 PORT = 3389
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#socket.AF_INET itu tcpnya
 client.connect((HOST,PORT))
